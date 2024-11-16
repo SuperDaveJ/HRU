@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta charset="utf-8">
+<meta http-equiv="cleartype" content="on">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Staffing Programs Overview</title>
+<!-- TemplateEndEditable -->
+<link href="../styles/fonts.css" rel="stylesheet" type="text/css">
+<link href="../styles/main_new.css" rel="stylesheet" type="text/css">
+<link href="../styles/grid_12cols_2.0gutter.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="../scripts/SCORMfunctions.js"></script>
+<script type="text/javascript" src="../scripts/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="../scripts/ContentFunctions.js"></script>
+
+<!-- TemplateBeginEditable name="head" -->
+<script type="text/javascript">
+
+var currPage = parent.iQ + 1;	
+
+  pgNumber = 1;
+  totalPages = 10;
+  
+  nextURL = "self_check.html";
+  //backURL = "01_02_010.html";
+  
+  strPrompt = "Select the right arrow to continue.";
+
+</script>
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+<div id="wrapper-outer">
+<div id="comment_link">
+    <div id="add_comment">
+    <a href="javascript:addComment()">Add Comment</a></div>
+    
+    <div id="view_comment">
+    <a href="javascript:viewComment()">View Comments</a></div>
+</div>
+<header>
+<!-- TemplateBeginEditable name="titleArea" -->
+	<h1 class="courseTitle">Module 1: Staffing Programs Overview</h1>
+    <div class="lessonTitle">
+    	<h2 class="l-title">Lesson 2: Pathways Programs</h2>
+    </div>
+<!-- TemplateEndEditable -->     
+    <div class="logo"><img src="../sysimages/logo_interior.svg" alt="" id="logo"/></div>	
+  </header>
+<div ><a href="#" onClick="togNav()" class="navSlide"></a></div> 
+	<div class="nav is_hidden">
+
+      <ul class="usa-sidenav-list">
+        <li>
+          <a class="menu" href="../c01_menu.html" onClick="setVariables()" onKeyPress="setVariables()">Menu</a>
+        </li>
+        <li>
+          <a href="../glossary.html" target="_blank">Glossary</a>
+        </li>
+        <li>
+          <a href="../resources/resources.html" target="_blank">Resources</a>
+        </li>
+        <li>
+          <a href="../help.html" target="_blank">Help</a>
+        </li>
+        <li>
+          <a href="#" onClick="exitConfirm();" onKeyPress="exitConfirm();">Exit</a>
+        </li>
+      </ul>
+    </div>
+
+
+ 
+<div id="content">
+
+
+    <div class="col span_12_of_12">
+      <div class="pgNumber">Page # of ##</div>
+    </div>
+
+    
+    <div class="section group">
+ 
+<!-- TemplateBeginEditable name="ContentArea" -->
+  <div class="col span_6_of_12">
+  <h3 class="pageTitle">What WE Do Is Important!</h3>
+  text
+  </div>
+  <div class="col span_6_of_12 "> 
+  graphic
+  </div> 
+ <!-- TemplateEndEditable --> 
+ 	<div class="col span_12_of_12 alignCenter">
+    	<a href="#" title="Submit" onClick="judgeInteraction();" class="button submit">Submit</a>
+  	</div>
+ </div><!-- End of section group -->
+
+</div><!-- End of #content -->
+<footer>
+<div class="nav-bottom"><div class="prompt">
+<!-- TemplateBeginEditable name="PromptArea" -->Select the right arrow to continue.
+<!-- TemplateEndEditable -->
+</div>
+<!--<a class="button back " title="Back" href="#"  onClick="setVariables()" onKeyPress="setVariables()" ><span></span> Back</a>
+<a class="button next" title="Next" href="#" onClick="setVariables()" onKeyPress="setVariables()" >Next <span></span></a>-->
+    
+<!--</nav>-->
+</div>
+<!-- end of nav-bottome -->    
+</footer>
+
+</div><!-- End of #wrapper-outer -->
+<!-- Comment Tool End of Comment Tool -->
+
+
+<script src="../scripts/imgSizer.js"></script>
+<script src="../scripts/modernizr.custom.2.6.2-min.js"></script>
+<script type="text/javascript" src="../scripts/assess.js"></script>
+<!-- TemplateBeginEditable name="BottomScript" -->
+<script>
+
+</script>
+<!-- TemplateEndEditable --> 
+<script>
+Modernizr.load(
+{
+	// test for media query support, if not load respond.js
+    test : Modernizr.mq('only all'),
+    // If not, load the respond.js file
+    nope : '../scripts/respond.min.js' 
+}); 
+</script>
+
+</body>
+</html>

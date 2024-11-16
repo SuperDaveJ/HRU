@@ -1,0 +1,227 @@
+html { 
+	font-size: 100%;
+	background: url(../sysimages/background.jpg) no-repeat top left;
+/*	background-size: 100% 200%;background-color:#205493;*/
+	background-size: cover;
+	background-position: center center;
+	background-color:#8ba6ca;
+	background-attachment: fixed; 
+}
+
+body {
+	margin: 0;
+	/*background-color:#205493;*/
+	font-family: 'SourceSansPro', Arial, sans-serif, Verdana;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 21px;
+	line-height: 1.3125rem;
+	font-weight: normal;
+	font-style: normal;
+	height: auto;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+	border: none;
+}
+
+.alignCenter { text-align: center; }
+.alignRight { text-align: right; }
+
+#contentArea {
+	position: relative;
+	width: 980px;
+	height: auto;
+	/* max-width: 720px; */
+	background: #fff;
+	/*border: 2px solid #696969;*/
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+/*	color: #696969;*/
+	margin: 1.5em auto 1.0em;
+	overflow: auto;
+	behavior: url (../styles/PIE.htc);
+}
+.col {
+	padding: 0;
+}
+h1 {
+	font-size: 1.1rem;
+	color: #141c3a;
+	margin: 0.8rem 1.0rem 0.5rem;
+}
+/*.popTitle{padding-left:1.0em}*/
+#popText {
+	font-size: 1.0rem;    /* 16px */
+	margin: 0.2rem 1.0rem 1.0rem 0;
+}
+#close {
+	position: relative;
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+table {
+  border-spacing: 0;
+  margin: 2rem 0;
+  min-width: 100%;
+}
+
+table thead th {
+  background-color: #f1f1f1;
+}
+
+table th {
+  text-align: left;
+  
+}
+
+table tbody th {
+  font-weight: 700;
+  border-top: 0;
+  border-right: 0;
+}
+
+table th,
+table td {
+  background-color: #ffffff;
+  border: 1px solid #5b616b;
+  padding: 0.5rem;
+  vertical-align:top;
+  
+}
+
+
+.leftCol{border-right: 0;}
+/*table th {border-bottom: 0;}*/
+table td {border-top: 0;}
+caption { 
+    display: table-caption;
+    text-align: center;
+	margin-bottom: 2rem;
+	font-weight: bold;
+} 
+
+/***** Table for main pages *****/
+
+ .usa-table-borderless thead tr {
+  background-color: transparent;
+}
+
+.usa-table-borderless thead th {
+  border-top: 0;
+}
+
+.usa-table-borderless th,
+.usa-table-borderless td {
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+}
+	
+p, ul, ol {
+	margin: 0 0 .8rem 0;
+}
+ol ul {
+	list-style-type:disc;
+	padding-left: 0;
+	margin-left: 1.25rem;
+}
+li:not(:last-child) {
+	margin-bottom: 0.3rem;
+}
+
+ul ul li:first-child {
+	margin-top: 0.5rem;
+}
+
+li.hasLongURL {
+	word-wrap: break-word;
+}
+  
+a {
+  color: #0071bc;
+  text-decoration: underline;
+}
+
+a:hover, a:active {
+  color: #205493;
+}
+
+a:visited {
+  color: #4c2c92;
+}
+
+a:focus {
+  box-shadow: 0 0 3px #3e94cf, 0 0 7px #3e94cf;
+  outline: 0;
+}
+
+.b { font-weight: bold; }
+.i { font-style: italic; }
+.u { text-decoration: underline; }
+.button {
+	font-size: 16px;
+	font-size: 1.0rem;
+	/*line-height: 37px;*/
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #fff;
+	overflow: hidden;
+	background-color:#0071bc;
+	display:inline-block;
+	/*padding:.5em .75em;*/
+	text-decoration:none;
+	-webkit-transition-property:background-color;transition-property:background-color;-webkit-transition-duration:0.3s;transition-duration:0.3s;-webkit-transition-timing-function:ease-in-out;transition-timing-function:ease-in-out;
+}
+
+.button:hover{background-color:#205493;}
+.button:active{background-color:#112e51;}
+a.button {color: #fff;}
+.button:focus{
+  	box-shadow: 0 0 3px , 0 0 7px #3e94cf;
+}
+.close {
+	width: 107px;
+	padding-top: 8px;height:30px;
+	/*vertical-align:middle;
+	background: background: url(../sysimages/arrow_back.svg) no-repeat 10px 10px;
+	float:left;
+	
+	display:block;*/
+	
+}
+@media only screen and (max-width:980px) {
+	#contentArea {
+	  max-width: 980px;
+	  width:96%;
+ 	}
+}
+
+@media only screen and (max-width:480px) {
+	
+  /***** make text larger for smart phone *****/
+  body {
+	  font-size: 115%;
+  }
+  #contentArea {
+	  margin: 0.8rem auto;
+	  max-width: 480px;
+	  width:100%;
+  }
+  h1 {
+	  font-size: 1.0rem;
+	  margin: 0.5rem 1.0rem;
+  }
+  #popText {
+	  font-size: 0.9rem;
+	  margin: 0.2rem .2rem 1.0rem 0;
+  }
+  .alignRight { text-align: center; }
+}

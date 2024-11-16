@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!-- Responsive and mobile friendly stuff -->
+<meta http-equiv="cleartype" content="on">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+<!--[if lt IE 9]>
+<script src="../scripts/html5shiv-min.js"></script>
+<![endif]-->
+<title>U.S. Office of Personnel Management HR University Curriculum and Course Development</title>
+<link href="styles/grid_12cols_2.0gutter.css" rel="stylesheet" type="text/css">
+<link href="styles/course-menu_n.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+</style>
+
+<script type="text/javascript" src="scripts/SCORMfunctions.js"></script>
+<script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
+
+<script type="text/javascript">
+
+var blnLastPage = false;
+
+if ( inLMS == true ) {
+	if (checkCourseStatus()) {
+		setCourseStatus("passed");
+	}
+	initializePage();
+
+	window.onunload = callExitCourse;
+}
+
+function exitConfirm(){
+	if (confirm("Do you wish to exit the course?  Your progress will be saved.")==true) {
+		exitCourse();
+	}
+}
+
+
+function launchLesson(pgURL) {
+	intendedClose = false;
+	window.location.href = pgURL;
+}
+
+$(document).ready( function(e) {
+  if (inLMS == true) {
+	for (var i=1; i<=nLessons; i++) {
+	  if (getLessonStatus(i) == 2) {
+	  	$('#'+i+'').find("i").removeClass("is-hidden");
+	  }
+	}
+  }
+});// end the ready function
+  
+
+
+/**************** Course Comment Tool ****************/
+var vpPath = "http://prod.c2ti.com/CommentTool/";	//path to Virtual Pilot site
+var mID = 1;
+
+function addComment() {
+	comWin = window.open(vpPath + "addComment.asp?uID=NA&cID=SS002&mID=1&lID=0&pID=menu", "Comments", "width=800,height=600,scrollbars=no");
+}
+
+function viewComment() {
+	viewWin = window.open(vpPath + "reviewComments.asp?uID=NA&cID=SS002&mID=1&lID=0&pID=menu", "Comments", "width=800,height=600,scrollbars=yes");
+}
+/**************** End of Comment Tool ****************/
+
+</script>
+</head>
+
+<body>
+
+<div id="wrapper-outer">
+
+<header>
+    <div class="h_title">Introduction to HR Management</div><!-- end of header_small_part1 -->
+</header>
+
+<section>
+ <div class="col_menu span_6_of_12 alignLeft">	
+   <a class="button module" href="javascript:launchLesson('M1L1/11010.html');" id="1">
+  		<span class="checkMk"><i class="statu is-hidden"></i></span><div class="lesson-number">Lesson 1:</div> <div class="lesson-title"> The Role of HR Professionals in the Federal  Workplace</div></a>
+        
+   <a class="button module" href="javascript:launchLesson('M1L2/12010.html');" id="2"><span class="checkMk"><i class="statu is-hidden"></i></span><div class="lesson-number">Lesson 2:</div> <div class="lesson-title"> Legal Basis for Federal HR Professionals</div></a>
+
+</div><!--end of left half screen -->
+
+<div class="col_menu span_6_of_12 alignRight">
+   <a class="button module" href="javascript:launchLesson('M1L3/13010.html');" id="3"><span class="checkMk"><i class="statu is-hidden"></i></span><div class="lesson-number">Lesson 3:</div> <div class="lesson-title"> HR Implementation in the Federal Government</div></a>
+        
+  <a class="button module" href="javascript:launchLesson('M1L4/14010.html');" id="4"><span class="checkMk"><i class="statu is-hidden"></i></span><div class="lesson-number">Lesson 4:</div> <div class="lesson-title"> Career Development for Federal HR Professionals</div></a>
+                 
+</div><!--end of right half screen -->
+
+  
+</section>
+
+<footer>
+ <div class="col_menu span_12_of_12">
+   <p class="prompt">Select a lesson to begin.</p>
+ </div>
+ 
+ </footer> 
+
+<!--</div> end of #all -->
+</div><!-- end of #wrapper-outer -->
+  
+<!-- Comment Tool
+<div id="comment_link">
+    <div id="add_comment">
+    <a class="cmt" href="javascript:addComment()">Add Comment</a></div>
+    
+    <div id="view_comment">
+    <a class="cmt" href="javascript:viewComment()">View Comments</a></div>
+</div>
+End of Comment Tool -->
+
+<!--<script src="scripts/imgSizer.js"></script>
+<script src="scripts/modernizr.custom.2.6.2-min.js"></script>
+
+<script>
+Modernizr.load(
+{
+	// test for media query support, if not load respond.js
+    test : Modernizr.mq('only all'),
+    // If not, load the respond.js file
+    nope : 'scripts/respond.min.js' 
+}); 
+</script>-->
+
+</body>
+</html>

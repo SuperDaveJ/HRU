@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url(../SourceSansPro/SourceSansPro-Regular.ttf)  format('truetype'); /* Safari, Android, iOS */
+  /*url('SourceSansPro.eot'); /* IE9 Compat Modes */
+  /*src: url('SourceSansPro.eot?#iefix') format('embedded-opentype'),  IE6-IE8 */
+  /*     url('SourceSansPro.svg') format('svg'),  Legacy iOS */
+   /*    url('SourceSansPro.woff2') format('woff2'),  Super Modern Browsers */
+    /*    url('SourceSansPro.woff') format('woff'), Pretty Modern Browsers */
+     /*  url('SourceSansPro.ttf')  format('truetype');  Safari, Android, iOS */
+       
+}
+
+body {
+  font-family: 'SourceSansPro', helvetica, sans-serif;
+}

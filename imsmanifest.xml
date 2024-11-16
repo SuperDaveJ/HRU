@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<manifest identifier="OPM_HR_HR002" version="1.0"
+	xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+	xmlns:imsmd = "http://www.imsglobal.org/xsd/imsmd_v1p2" 
+	xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+						http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+						http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+
+<metadata>
+   <schema>ADL SCORM</schema>
+   <schemaversion>1.2</schemaversion>
+   <imsmd:lom> 
+      <imsmd:general> 
+         <imsmd:title> 
+            <imsmd:langstring lang = "en_US">Introduction to HR Management</imsmd:langstring> 
+         </imsmd:title> 
+         <imsmd:description> 
+            <imsmd:langstring Lang = "en_US">
+               This course will provide an overview of the federal HR profession and the context in which HR work is conducted.
+            </imsmd:langstring> 
+          </imsmd:description> 
+          <imsmd:keywords> 
+            <imsmd:langstring Lang = "en_US">staffing</imsmd:langstring>
+            <imsmd:langstring Lang = "en_US">merit systems principles</imsmd:langstring>
+            <imsmd:langstring Lang = "en_US">prohibited personnel practices</imsmd:langstring>
+            <imsmd:langstring Lang = "en_US">HR Life Cycle</imsmd:langstring>
+            <imsmd:langstring Lang = "en_US">HR functions</imsmd:langstring>
+          </imsmd:keywords> 
+      </imsmd:general> 
+   </imsmd:lom> 
+</metadata>
+
+<organizations default = "HR002">
+  <organization identifier = "HR002">
+	 <title><![CDATA[Introduction to HR Management]]></title>
+	 <item identifier ="OPM_HR002" identifierref ="OPM_HR002_ref" isvisible = "true">
+		  <title><![CDATA[Introduction to HR Management]]></title>
+	 </item>
+  </organization>
+</organizations>
+
+<resources>
+  <resource identifier ="OPM_HR002_ref" type = "webcontent" adlcp:scormtype ="sco" href="hr002_index.html">
+	<file href = "hr002_index.html"/>
+	<file href = "hr002_menu.html"/>
+	<file href = "M1L1/11010.html"/>
+	<file href = "M1L2/12010.html"/>
+	<file href = "M1L3/13010.html"/>
+	<file href = "M1L4/14010.html"/>
+	<file href = "scripts/SCORMfunctions.js"/>
+	<file href = "scripts/ContentFunctions.js"/>
+	<file href = "styles/main_new.css"/>
+  </resource>
+</resources>
+
+</manifest>
+

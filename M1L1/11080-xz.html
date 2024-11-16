@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en"><!-- InstanceBegin template="/Templates/base.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta charset="utf-8">
+<meta http-equiv="cleartype" content="on">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>U.S. Office of Personnel Management HR University Curriculum and Course Development</title>
+<!-- InstanceEndEditable -->
+<link href="../styles/fonts.css" rel="stylesheet" type="text/css">
+<link href="../styles/main_new.css" rel="stylesheet" type="text/css">
+<link href="../styles/grid_12cols_2.0gutter.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="../scripts/SCORMfunctions.js"></script>
+<script type="text/javascript" src="../scripts/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="../scripts/ContentFunctions.js"></script>
+<!-- InstanceBeginEditable name="head" -->
+<style>
+img#dyk {
+	cursor:pointer; 
+	width:20%; 
+	height:20%;"
+}
+
+#slideholder {
+	position: relative;
+	height:230px;  
+	width:870px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+.txtSlider {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 5px;
+	width: 610px;
+	height: 175px;
+	text-align: left;
+	overflow: auto;
+	border:1px solid #afadad;
+}
+.imgSlider {
+	position: absolute;
+	top: 0;
+	left: 622px;
+	padding: 3px 5px;
+	width: 238px;
+	height: 179px;
+	border:1px solid #afadad;
+}
+.imgSlider img {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+}
+#nav-container {
+	position: absolute;
+	top: 195px;
+	left: 0;
+	width: 100%;
+	height: 30px;
+}
+.pre_slide {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 30px;
+	height: 16px;
+}
+.next_slide {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 30px;
+	height: 16px;
+}
+#nav-container a {
+	display: block;
+}
+
+#timeline {
+	position: absolute;
+	left: 45px;
+	top: 10px;
+	height: 20px;
+	width: 780px;
+	border-top: 2px solid #c8e4ef;
+	color: #372bc;
+}
+#timeline #mark1 {
+	position: absolute;
+	left: 40px;
+	top: 5px;
+}
+#timeline #mark2 {
+	position: absolute;
+	left: 380px;
+	top: 5px;
+}
+#timeline #mark3 {
+	position: absolute;
+	right: 40px;
+	top: 5px;
+}
+
+.point{background: url(images/tri.png)  no-repeat top left; background-size: 20% 20%; width:50px;height:50px; position:relative;margin-left:80px;}
+
+.progress_bkgd{position: relative; background: url(images/full_nocircles_0.svg) no-repeat; background-position: center; width:80%; height:45px; top:5px; }
+
+
+@media only screen and (max-width: 1280px) {
+	.point{margin-left:170px;}
+}
+@media only screen and (max-width: 1024px) {
+	.point{margin-left:80px;}
+}
+@media only screen and (max-width: 966px) {
+	.point{margin-left:60px;}
+}
+@media only screen and (max-width: 800px) {
+.point, .progress_bkgd {display:none}
+.pre_slide, .next_slide {width:50%;	}
+.btn_pre, .btn_next {width:10%; float:left;}
+.btn_next {float:right;margin-right:3%}
+
+.txtSlider {width:60%}
+	
+}
+@media only screen and (max-width: 680px) {
+	.pre_slide, .next_slide {top:8px; margin-bottom:15px;}
+}
+@media only screen and (max-width: 480px) {
+#slideholder{height:auto; border:0;}
+.pre_slide, .next_slide {top:5px; margin-bottom:15px;}
+.txtSlider {width:96%; height:auto;}
+.imgSlider {top:0px; text-align:center;left: 0; }
+.btn_pre, .btn_next {width:15%;}
+
+}
+</style>
+
+<script src="../scripts/jquery-ui.js"></script>
+
+<script type="text/javascript">
+
+  pgNumber = 8;
+  totalPages = 13;
+  
+  nextURL = "11090.html";
+  backURL = "11070.html";
+  
+  strPrompt = "Select the arrows for more information, and then Next to continue.";
+  
+  function playAudio() {
+	var audio = new Audio('audios/15020.mp3');
+    audio.play();
+  }
+
+</script>
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+
+<div id="wrapper-outer">
+<div id="comment_link">
+    <div id="add_comment">
+    <a href="javascript:addComment()">Add Comment</a></div>
+    
+    <div id="view_comment">
+    <a href="javascript:viewComment()">View Comments</a></div>
+</div>
+<header>
+<!-- InstanceBeginEditable name="titleArea" -->
+	<h1 class="courseTitle">Introduction to HR Management</h1>
+    <div class="lessonTitle">
+    	<h2 class="l-title">The Role of HR Professionals in the Federal Workplace</h2>
+    </div>
+<!-- InstanceEndEditable -->     
+
+  </header>
+<div ><a href="#" onClick="togNav()" class="navSlide"></a></div> 
+	<div class="nav is_hidden">
+
+      <ul class="usa-sidenav-list">
+        <li>
+          <a class="menu" href="../c01_menu.html" onClick="setVariables()" onKeyPress="setVariables()">Menu</a>
+        </li>
+        <li>
+          <a href="../glossary.html" target="_blank">Glossary</a>
+        </li>
+        <li>
+          <a href="../resources/resources.html" target="_blank">Resources</a>
+        </li>
+        <li>
+          <a href="../help.html" target="_blank">Help</a>
+        </li>
+        <li>
+          <a href="#" onClick="exitConfirm();" onKeyPress="exitConfirm();">Exit</a>
+        </li>
+      </ul>
+    </div>
+
+
+ 
+<div id="content">
+
+
+    <div class="col span_12_of_12">
+      <div class="pgNumber">Page # of ##</div>
+    </div>
+
+    
+    <div class="section group">
+ 
+<!-- InstanceBeginEditable name="ContentArea" -->
+<div class="col span_6_of_12">
+     <h3 class="pageTitle">History of the Federal Civilian Workforce</h3>
+      
+    	<p>Let’s look now at some key points in history that shaped today’s federal workforce. </p>
+
+        <p>Select the arrows along the timeline below to learn the process of making a law, or <a href="11080_508.html" target="_blank">select this link for a 508-compliant text alternative</a>. Then, select the Did You Know? graphic for supplemental information.</p>
+
+ </div>
+      
+ <div class="col span_6_of_12  alignCenter">
+      <a href="11080_pop1.html" target="_blank"><img id="dyk" src="images/11080.png" onclick="this.src='images/11080_selected.png'" alt="Did You Know?" ></a>
+      
+</div>
+
+ <div class = "col span_12_of_12 alignCenter" > 
+
+<div id = "slideholder">  
+ <div class="txtSlider" >
+		<div class="txtbox">
+            <p><STRONG>1828 – The Spoils System</STRONG></p>
+            <p>The Spoils System was a practice where a political party, after winning an election, gave government jobs to its voters as a reward for working toward victory, and as an incentive to keep working for the party—as opposed to a system of awarding offices on the basis of some measure of merit independent of political activity.</p>
+             
+            <p>The term was derived from the phrase "'to the victor belong the spoils" by New York Senator William L. Marcy, referring to the victory of Andrew Jackson in the election of 1828. Jackson was not happy with the federal employees who had been around since the Washington administration and whom he considered “corrupt.” In one year, he removed nearly 10% of government employees from their positions despite there being no evidence to support their removal. The Spoils System existed for five decades, until the assassination of U.S. President Garfield by a disappointed office seeker in 1881.</p>
+		</div>	
+		
+			
+		<div class="txtbox">
+			<p><strong>1883 - Pendleton Civil Service Reform Act</strong></p>
+            <p>Two years after Garfield's assassination, reformers began demanding a civil service system, which resulted in the Pendleton Civil Service Reform Act of 1883. This Act stipulated that government jobs should be awarded on the basis of merit or ability to perform the job rather than political connections or affiliations. The Act provided for the selection of government employees through competitive examinations and made it illegal to fire or demote government employees for political reasons. It also established a Civil Service Commission to administer the civil service of the United States federal government.</p>
+             
+            <p>Before 1883, only 10% of the government’s 132,000 civilian employees were placed under civil service with the rest at the disposal of the party power. Today, more than 90% of the 2.7 million federal civilian employees are covered by merit systems.</p>
+		</div>
+        
+		<div class="txtbox">
+                <p><STRONG>1978 - Civil Service Reform Act</STRONG></p>
+                <p>The Civil Service  Reform Act of 1978 abolished the Civil Service Commission and established in  its place the U.S. Office of Personnel Management (OPM), the Federal Labor  Relations Authority (FLRA), and the U.S. Merit Systems Protection Board (MSPB). </p>
+                <p>The law stipulated  that agency heads could move career senior executives into any  position for which they are qualified. It also:</p>
+                <ul>
+                  <li>Established the Merit System Principles, which  are designed to ensure fair and open recruitment and competition and employment  practices free of political influence or other non-merit factors</li>
+                  <li>Established the Prohibited Personnel Practices,  which are employment-related activities that are banned in the federal  workforce because they violate the merit system through some form of employment  discrimination, retaliation, improper hiring practices, or failure to adhere to  laws, rules, or regulations that directly concern the merit system principles</li>
+                  <li>Delegated  authority of competitive personnel actions to agencies</li>
+                </ul>
+		</div>
+	          
+</div> <!--txtSlider end-->
+
+<div class="imgSlider">
+    <div><img src="images/11080_1828.png" alt="Two people exchanging a vote for spoils." ></div>
+    <div><img src="images/11080_1883.png" alt="A person picking one wooden block from a collection."></div>
+    <div><img src="images/11080_1978.png" alt="Collage of the logos for OPM, FLRA, and MSPB."></div>
+		
+</div> <!-- imgSlider ends -->
+
+<div id="nav-container">
+  <div class="pre_slide"><a href="#" class="button" > &laquo; </a></div>
+  <div id="timeline">
+  	<div id="mark1">1828</div>
+  	<div id="mark2">1873</div>
+  	<div id="mark3">1978</div>
+  </div>
+  <div class="next_slide"><a href="#" class="button"> &raquo; </a></div>
+</div> <!-- end of nav-container -->
+
+</div> <!-- end of slideholder -->
+
+</div>
+
+<div class="col span_12_of_12"> 
+    <div class="col progress_bkgd">
+        <div class="point"></div>
+    </div>
+</div>
+
+
+ <!-- InstanceEndEditable --> 
+ </div><!-- End of section group -->
+
+</div><!-- End of #content -->
+<footer>
+<div class="nav-bottom"><div class="prompt">
+<!-- InstanceBeginEditable name="PromptArea" -->
+<!-- InstanceEndEditable -->
+</div>
+<a class="button back " title="Back" href="#"  onClick="setVariables()" onKeyPress="setVariables()" ><span></span> Back</a>
+<a class="button next" title="Next" href="#" onClick="setVariables()" onKeyPress="setVariables()" >Next <span></span></a>
+    
+<!--</nav>-->
+</div>
+<!-- end of nav-bottome -->    
+</footer>
+
+
+
+</div><!-- End of #wrapper-outer -->
+
+
+
+<script src="../scripts/imgSizer.js"></script>
+<script src="../scripts/modernizr.custom.2.6.2-min.js"></script>
+<!-- InstanceBeginEditable name="BottomScript" -->
+<script>
+var s_count=0;
+//var audioFile="audios/" + soundFiles[s_count] + ".mp3";
+//	audio = new Audio(audioFile);
+    
+    
+	var currentTxtSlide = $('.txtSlider div').first().show();
+	var currentImgSlide = $('.imgSlider div').first().show();
+	currentTxtSlide.siblings().hide();
+	currentImgSlide.siblings().hide();
+	$(".btn_pre").addClass("disabled");
+	
+	$('.btn_pre').on('click', goToPrevSlide);
+	$('.btn_next').on('click', goToNextSlide);
+	
+//	$('#showslide').on('click', showslide);
+	
+//	function showslide() {
+//		$('#slideholder').slideToggle("fast");
+//		$('#navbut').show();
+//		$('#show_box').hide();
+//		audio.play();
+//	}
+//	
+//	function playaudio(n){
+//		audio.pause();
+//		audioFile = "audios/" + soundFiles[s_count] + ".mp3";
+//		audio = new Audio(audioFile);
+//    	audio.play();
+//		$(".slide_num").html("Slide "+(s_count+1)+" of "+$('.txtSlider div').length)
+//	}
+	
+	function goToNextSlide() {
+		s_count++;
+		//playaudio(s_count);
+		if(s_count<currentTxtSlide.siblings().length){
+			$(".btn_pre").removeClass("disabled");
+			
+		}
+		else{
+			$(".btn_next").addClass("disabled");
+		}
+		//alert(audioFile)
+		
+		currentTxtSlide = currentTxtSlide.hide().next().effect('slide',{ direction: 'left' }); //fadeIn();
+		currentImgSlide = currentImgSlide.hide().next().effect('slide',{ direction: 'left' }); //fadeIn();
+		
+		var to_left = 554 * s_count * 50/100; 
+		$(".point").animate({left: to_left}, 1000);
+	}
+	
+	function goToPrevSlide() {
+		s_count--;
+		//playaudio(s_count);
+		var to_right = 554* s_count * 50/100;
+		currentTxtSlide = currentTxtSlide.hide().prev().effect('slide',{ direction: 'right' });//fadeIn();
+		currentImgSlide = currentImgSlide.hide().prev().effect('slide',{ direction: 'right' });//fadeIn();$("#slideholder").width()
+		if(s_count>0){			
+			$(".btn_next").removeClass("disabled");
+			$(".point").animate({left: to_right}, 1000);	
+		}
+		else{
+			$(".btn_pre").addClass("disabled");
+			$(".point").animate({left: "0"}, 1000);
+		}
+		$('.progressBar').width(to_right);
+
+	}
+</script>
+<!-- InstanceEndEditable --> 
+<script>
+Modernizr.load(
+{
+	// test for media query support, if not load respond.js
+    test : Modernizr.mq('only all'),
+    // If not, load the respond.js file
+    nope : '../scripts/respond.min.js' 
+}); 
+</script>
+
+</body>
+<!-- InstanceEnd --></html>

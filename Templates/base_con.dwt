@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta charset="utf-8">
+<meta http-equiv="cleartype" content="on">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+<!--[if IE]>
+<script src="../scripts/html5shiv-min.js"></script>
+<![endif]-->
+<meta name="description" content="1095-A Health Insurance Marketplace Statement Web-based Training">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Overview of the 1095-A Program</title>
+<!-- TemplateEndEditable -->
+<link href="../styles/OpenSans/OpenSansStyles.css" rel="stylesheet" type="text/css">
+<link href="../styles/main.css" rel="stylesheet" type="text/css">
+<link href="../styles/grid_12cols_2.0gutter.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="../scripts/SCORMfunctions.js"></script>
+<script type="text/javascript" src="../scripts/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="../scripts/ContentFunctions.js"></script>
+<!-- TemplateBeginEditable name="head" -->
+
+<script type="text/javascript">
+
+  pgNumber = 2;
+  totalPages = 10;
+  
+  nextURL = "01_02_030.html";
+  backURL = "01_02_010.html";
+  
+  strPrompt = "Select the right arrow to continue.";
+
+</script>
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+<div id="wrapper-outer">
+  <header>
+  <!-- TemplateBeginEditable name="CourseTitle" -->
+  	<h1 class="courseTitle">
+    	<span class="c-title">Overview of the 1095-A Program </span>
+    </h1>
+    <div id="header_h2">
+      <h1><span class="cTitle">The Federal Hiring Process for Staffing Specialists</span></h1>
+    </div>
+ <!-- TemplateEndEditable -->
+ 	
+  </header>
+  
+  <div id="logo-top-large">
+  <img src="../sysimages/logo.png" alt="Cognosante 1095A"/> 
+  </div>
+    
+  <div id="logo-top-medium">
+  <img src="../sysimages/logo.png" alt="Cognosante 1095A"/> 
+  </div>
+    
+  <div id="logo-top-small">
+  <img src="../sysimages/logo.png" alt="Cognosante 1095A"/> 
+  </div>
+    
+<div id="content">
+<!-- TemplateBeginEditable name="ContentArea" -->
+    <div class="section group">
+  	  <div class="col span_12_of_12">
+    	<div class="lessonTitle">Lesson 1: Understanding Health Insurance</div>
+        
+    	<h3 class="pageTitle">What WE Do Is Important!</h3>
+        
+  	  </div>
+    </div>
+    
+    <div class="section group">
+  	  <div class="col span_6_of_12">
+      
+    	<p>Depending on a number of <a href="javascript:showPopup(1);">program-specific factors</a>, you should plan to meet with your grantee anywhere from once a week to once a month to <a href="javascript:showPopup(2);">check in</a> with your partner.</p>
+
+    	<p>As an EDI Analyst, your focus is to:</p>
+        
+    	<ul>
+        	<li>Augment our core team to help process the large number errors that need to be reviewed</li>
+        	<li>Address these errors so people can complete their Federal taxes</li>
+		</ul>
+        
+        <p>Select the graphic to see advice from an experienced EDI Analyst.</p>
+  	  </div>
+      
+      <div class="col span_6_of_12">
+      </div>
+
+    </div>
+
+<!-- TemplateEndEditable -->
+
+</div><!-- End of #content -->
+
+<div id="page-num" class="pgNumber">Page # of ##</div>
+
+<div id="bottom-bar-large">
+<div id="prompt-large"><span class="prompt">Select the right arrow to continue.</span></div>
+
+<!--************ Desktop ************-->
+<nav id="nav-large" class="clearfix">
+	<div id="molecule-large">
+    <img src="../sysimages/desktop/bottom_bar-molecules.png" alt=""/>
+    </div>
+    
+    <a id="back" class="button back" title="Back Arrow" href="#" onClick="setVariables()" onKeyPress="setVariables()" onmouseover="swapImage(event, '../sysimages/d_back_2.jpg')" onmouseout="swapImage(event, '../sysimages/d_back_0.jpg')" onfocus="swapImage(event, '../sysimages/d_back_2.jpg')" onblur="swapImage(event, '../sysimages/d_back_0.jpg')"><img src="../sysimages/d_back_0.jpg" alt="Back Arrow"/></a>
+    
+    <a id="menu" class="menu button" href="#" onClick="setVariables()" onKeyPress="setVariables()">menu</a>
+    
+    <a id="glossary" class="button" href="../glossary.html" target="_blank">glossary</a>
+    
+    <a id="library" class="button" href="../resources/resources.html" target="_blank">library</a>
+    
+    <a id="help" class="button" href="../help.html" target="_blank">help</a>
+    
+    <a id="exit" class="button" href="#" onClick="exitConfirm();" onKeyPress="exitConfirm();">exit</a>
+    
+    <a id="next" class="button next" title="Right Arrow" href="#" onClick="setVariables()" onKeyPress="setVariables()" onmouseover="swapImage(event, '../sysimages/d_next_2.jpg')" onmouseout="swapImage(event, '../sysimages/d_next_0.jpg')" onfocus="swapImage(event, '../sysimages/d_next_2.jpg')" onblur="swapImage(event, '../sysimages/d_next_0.jpg')"><img src="../sysimages/d_next_0.jpg" alt="Right Arrow"/></a>
+    
+</nav>
+</div><!-- end of #bottom-bar-large -->    
+
+<!--************ Tablet & Mobile ************-->
+<div id="bottom-bar-medium">
+<div id="prompt-medium"><span class="prompt">Select the right arrow to continue.</span></div>
+
+<nav id="nav-medium-1" class="clearfix">
+    
+    <a id="menu_m" class="menu button" href="#" onClick="setVariables()" onKeyPress="setVariables()">menu</a>
+    
+    <a id="glossary_m" class="button" href="../glossary.html" target="_blank">glossary</a>
+    
+    <a id="library_m" class="button" href="../resources/resources.html" target="_blank">library</a>
+    
+    <a id="help_m" class="button" href="../help.html" target="_blank">help</a>
+    
+    <a id="exit_m" class="button" href="#" onClick="exitConfirm();" onKeyPress="exitConfirm();">exit</a>
+    
+</nav>
+
+<nav id="nav-medium-2" class="clearfix">
+	<div id="molecule-medium">
+    <img src="../sysimages/tablet/tablet_bottom_bar-molecules.png" alt=""/>
+    </div>
+    
+    <a id="back_m" class="button back" title="Back Arrow" href="#" onClick="setVariables()" onKeyPress="setVariables()" onmouseover="swapImage(event, '../sysimages/d_back_2.jpg')" onmouseout="swapImage(event, '../sysimages/d_back_0.jpg')" onfocus="swapImage(event, '../sysimages/d_back_2.jpg')" onblur="swapImage(event, '../sysimages/d_back_0.jpg')"><img src="../sysimages/d_back_0.jpg" alt="Back Arrow"/></a>
+    
+    <div id="logo-bottom-medium">&nbsp;</div>
+    
+    <a id="next_m" class="button next" title="Right Arrow" href="#" onClick="setVariables()" onKeyPress="setVariables()" onmouseover="swapImage(event, '../sysimages/d_next_2.jpg')" onmouseout="swapImage(event, '../sysimages/d_next_0.jpg')" onfocus="swapImage(event, '../sysimages/d_next_2.jpg')" onblur="swapImage(event, '../sysimages/d_next_0.jpg')"><img src="../sysimages/d_next_0.jpg" alt="Right Arrow"/></a>
+</nav>
+
+</div><!-- end of #bottom-bar-middle -->    
+
+<!-- Comment Tool
+<div id="comment_link">
+    <div id="add_comment">
+    <a href="javascript:addComment()">Add Comment</a></div>
+    
+    <div id="view_comment">
+    <a href="javascript:viewComment()">View Comments</a></div>
+</div>
+End of Comment Tool -->
+
+</div><!-- End of #wrapper-outer -->
+
+<script src="../scripts/imgSizer.js"></script>
+<script src="../scripts/modernizr.custom.2.6.2-min.js"></script>
+
+<!-- TemplateBeginEditable name="BottomScript" -->
+<script>
+
+</script>
+<!-- TemplateEndEditable --> 
+
+<script>
+Modernizr.load(
+{
+	// test for media query support, if not load respond.js
+    test : Modernizr.mq('only all'),
+    // If not, load the respond.js file
+    nope : '../scripts/respond.min.js' 
+}); 
+</script>
+</body>
+</html>

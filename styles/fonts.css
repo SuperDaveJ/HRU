@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: SourceSansPro;
+  src: 	url(SourceSansPro/SourceSansPro-Regular.eot), /*format('eot'),  IE9 Compat Modes */
+  		url(SourceSansPro/SourceSansPro-Regular.ttf.woff), /*fotmat('woff'), Pretty Modern Browsers */
+		url(SourceSansPro/SourceSansPro-Regular.ttf.woff2), /*fotmat('woff2'), Super Modern Browsers */
+		url(SourceSansPro/SourceSansPro-Regular.ttf);  /*format('truetype');  Safari, Android, iOS */
+   
+}
+@font-face {
+  font-family: SourceSansPro;
+  src:  url(SourceSansPro/SourceSansPro-Bold.eot), /*format('eot'),  IE9 Compat Modes */
+  		url(SourceSansPro/SourceSansPro-Bold.ttf.woff), /*fotmat('woff'), Pretty Modern Browsers */
+		url(SourceSansPro/SourceSansPro-Bold.ttf.woff2), /*fotmat('woff2'), Super Modern Browsers */
+		url(SourceSansPro/SourceSansPro-Bold.ttf);  /*format('truetype');  Safari, Android, iOS */
+		font-weight:bold;
+   
+}
+
+@font-face {
+  font-family: Merriweathe;
+  src: 	url(Merriveather/Merriweather-webfont.eot), /* format('eot') IE9 Compat Modes */
+  		url(Merriveather/Merriweather-webfont.woff), /* fotmat('woff')Pretty Modern Browsers */
+		url(Merriveather/Merriweather-Regular.ttf); /* fotmat('truetype')Super Modern Browsers */
+}
+@font-face {
+  font-family: Merriweathe;
+  src: 	url(Merriveather/Merriweather-Black-webfont.eot), /* format('eot') IE9 Compat Modes */
+  		url(Merriveather/Merriweather-Bold-webfont.woff), /* fotmat('woff')Pretty Modern Browsers */
+		url(Merriveather/Merriweather-Bold.ttf); /* fotmat('truetype')Super Modern Browsers */
+  font-weight:bold;
+}
+
+
+
